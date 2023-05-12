@@ -17,7 +17,7 @@ def calculate_median(numbers):
     middle_index = len(numbers) // 2
     if len(numbers) % 2 != 0:
         return numbers[middle_index]
-    return (numbers[middle_index] + numbers[middle_index - 1]) / 2
+    # return (numbers[middle_index] + numbers[middle_index - 1]) / 2
 my_numbers = [4, 2, 8, 5, 9, 6, 3, 7, 1]
 median_value = calculate_median(my_numbers)
 print("The median value is:", median_value)
